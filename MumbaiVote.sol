@@ -1,8 +1,8 @@
-// Created by Rishabh Gupta for ETHGlobal New Delhi 2025
+// Created by Rishabh Gupta for ETHGlobal Mumbai 2026
 // SPDX-License-Identifier: MIT    
 pragma solidity ^0.8.20;
   
-contract DelhiVote {
+contract MumbaiVote {
     struct Proposal {
         string name;
         uint256 voteCount;
