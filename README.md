@@ -45,4 +45,4 @@ Building MumbaiVote was an exciting leap into Web3 governance! Studying the cont
 Licensed under the MIT License—see [LICENSE](LICENSE).
 
 ## Contact
-Email me at rishabhgupta78470@gmail.com or find me on X @rishabh_guptaz. Excited to connect at ETHGlobal New Delhi 2025!
+Email me at rishabhgupta78470@gmail.com or find me on X @rishabh_guptaz. Excited to connect at ETHGlobal Mumbai 2026!
