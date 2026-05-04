@@ -57,8 +57,10 @@ I learned how structs organize data, mappings track user actions, and loops dete
 ## Source
 Built using [Solidity by Example’s voting template](https://docs.soliditylang.org/en/latest/solidity-by-example.html#voting), licensed under MIT. I customized the contract name and proposals while learning from the code.
   
-## My Journey
-Building MumbaiVote was an exciting leap into Web3 governance! Studying the contract taught me about data structures and user interaction in Solidity. Deploying to Sepolia and verifying on Etherscan was a proud moment. I named it “MumbaiVote” to celebrate my journey toward ETHGlobal Mumbai 2026.
+## 🎯 Key Learnings
+- Designed on-chain state management using mappings and structs  
+- Implemented secure voting logic with input validation  
+- Gained experience deploying and verifying smart contracts on testnet  
 
 ## Usage
 - Compile and deploy `MumbaiVote.sol` in Remix (Solidity 0.8.20).
