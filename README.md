@@ -54,8 +54,8 @@ I learned how structs organize data, mappings track user actions, and loops dete
 - Add off-chain identity verification (e.g., zk proofs)
 - Deploy on Layer 2 for scalability
 
-## Source
-Built using [Solidity by Example’s voting template](https://docs.soliditylang.org/en/latest/solidity-by-example.html#voting), licensed under MIT. I customized the contract name and proposals while learning from the code.
+## 📚 References
+This project is inspired by common Solidity governance patterns and standard smart contract design approaches. External resources were used for conceptual understanding and best practices.
   
 ## 🎯 Key Learnings
 - Designed on-chain state management using mappings and structs  
