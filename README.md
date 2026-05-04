@@ -31,7 +31,7 @@ User → MetaMask → Smart Contract (MumbaiVote.sol)
 - **Proposals**: Predefined options ("Proposal A", "Proposal B").
 - **Voting**: Users vote once for a proposal, tracked to prevent double-voting.
 - **Result**: View the winning proposal with the highest votes.
-- **Security**: Uses safe math (Solidity ^0.8.20) and input validation.
+- **Security**: Input validation and overflow-safe arithmetic via Solidity ^0.8.x
 
 ## Code Breakdown
 `MumbaiVote.sol` implements a voting system:                                                 
@@ -39,8 +39,6 @@ User → MetaMask → Smart Contract (MumbaiVote.sol)
 - **Vote**: Allows one vote per user, tracked via a `voters` mapping, and emits a `Voted` event.
 - **GetWinningProposal**: Returns the proposal with the most votes by iterating through a `Proposal` struct array.
 - **Security**: Uses `require` to prevent double-voting and invalid proposals.
-
-I learned how structs organize data, mappings track user actions, and loops determine results. Deploying via Remix was a smooth experience.
 
 ## Files
 - **`MumbaiVote.sol`**: Defines the voting contract.
