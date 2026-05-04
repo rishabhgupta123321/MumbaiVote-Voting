@@ -2,7 +2,26 @@
 A decentralized voting smart contract for ETHGlobal Mumbai 2026.
 
 ## Overview
-As a Solidity beginner, I built MumbaiVote to explore Web3 governance, using a voting template from Solidity by Example. I studied the code to understand structs, mappings, and user interactions, customized the contract name and proposals, and deployed it on Sepolia for ETHGlobal.
+MumbaiVote is a decentralized voting smart contract designed to enable transparent, tamper-proof, and trustless decision-making on the Ethereum blockchain.
+
+The system ensures one vote per user using address-based tracking and stores all voting data on-chain, making results verifiable and immutable. The contract is deployed on the Sepolia testnet and demonstrates core governance mechanisms such as proposal management, vote validation, and result computation.
+
+This project represents an iteration and improvement of my earlier voting system, with cleaner structure, improved validation logic, and better alignment with real-world DAO governance patterns.
+
+## 🧠 Problem Statement
+Traditional voting systems lack transparency and are prone to manipulation. This project explores how blockchain-based voting can ensure immutability, transparency, and trustless participation.
+
+## ⚙️ Architecture
+User → MetaMask → Smart Contract (MumbaiVote.sol)
+
+- Voting state stored on-chain using mappings
+- Each address allowed only one vote
+- Results computed dynamically from stored data
+
+## 🔐 Security Considerations
+- Prevents double voting using address-based mapping
+- Input validation using require statements
+- Uses Solidity ^0.8.x (built-in overflow protection)
 
 ## Deployment
 - **Network**: Sepolia Testnet
@@ -28,6 +47,12 @@ I learned how structs organize data, mappings track user actions, and loops dete
 - **`LICENSE`**: MIT License, allowing open-source use.
 - **`.gitignore`**: Node.js template with `artifacts/` for clean commits.
 - **`README.md`**: This file, detailing my project and journey.
+
+## 📈 Future Improvements
+- Add frontend interface for better usability
+- Integrate DAO-style governance
+- Add off-chain identity verification (e.g., zk proofs)
+- Deploy on Layer 2 for scalability
 
 ## Source
 Built using [Solidity by Example’s voting template](https://docs.soliditylang.org/en/latest/solidity-by-example.html#voting), licensed under MIT. I customized the contract name and proposals while learning from the code.
